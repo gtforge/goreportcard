@@ -1,4 +1,4 @@
-FROM golang:1.6
+FROM golang:1.21.12
 
 RUN go get golang.org/x/tools/go/vcs
 
